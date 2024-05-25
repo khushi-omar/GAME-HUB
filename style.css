@@ -46,7 +46,7 @@
     .btn{
         width:70px;
         font-size:17px;
-       font-family: Arial, Helvetica, sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
        
     }
     .tabs {
@@ -60,11 +60,12 @@
     .tabs:hover{
         font-size:25px;
         color: greenyellow;
-        transition-duration: 1s;
+        transition-duration: 1.5s;
     }
     .tab-item {
-        padding-left: 20px;
-        padding-right: 20px;
+        color: azure;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     /* colour and styling later on */
 
@@ -154,4 +155,28 @@
     }
     .pages{
         padding-top: 25px;
+    }
+
+    .game-card{
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        width: 100% auto;
+        height: 100px;
+        font-size: 20px;
+    }
+
+    .game-card:hover{
+        border: 2px solid limegreen;
+        transition-duration: 0.75s;
+        color: limegreen;
+        font-size: 25px;
+    }
+
+    .game-card img {
+        width: 75px; /* Adjust size as needed */
+        height: 75px;
+        margin-right: 10px;
+        margin-left: 10px;
+        float: left;
     }
