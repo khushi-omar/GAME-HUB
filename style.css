@@ -158,12 +158,14 @@
     }
 
     .game-card{
-        display: flex;
+        display: inline-flex;
         align-items: center;
         margin-bottom: 20px;
-        width: 100% auto;
+        width: 25% ;
         height: 100px;
         font-size: 20px;
+        flex-direction: row;
+        margin-right: 20px;
     }
 
     .game-card:hover{
@@ -179,4 +181,13 @@
         margin-right: 10px;
         margin-left: 10px;
         float: left;
+    }
+
+    .trending-back{
+        width:90%; 
+        height: 400px; 
+        padding-top: 15px; 
+        display:inline-block; 
+        background-image: url('trending-back.jpg'); 
+        background-blend-mode: lighten;
     }
